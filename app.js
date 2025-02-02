@@ -5,8 +5,10 @@ let amigos = []
 function adicionarAmigo() {
 
 var a = document.getElementById("amigo").value
+amigos.push(a)
 
-console.log(a)
+let b = document.getElementById("listaAmigos");
+b.innerHTML = amigos
 
 }
 
