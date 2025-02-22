@@ -1,12 +1,22 @@
 let amigos = []
 
 
-// consegui aprender como faz uma função e como pegar algo do usuario e colocar em outro lugar... aee
 function adicionarAmigo() {
 
+    //pega o que foi escrito pelo usuario
 var a = document.getElementById("amigo").value
+
+
+    //#2 fazer uma validação para 
+if (a != null) {
 amigos.push(a)
 
+}
+
+else {
+
+}
+    //coloca com virgula tudo...
 let b = document.getElementById("listaAmigos");
 b.innerHTML = amigos
 
