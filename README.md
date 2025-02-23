@@ -1,3 +1,3 @@
 <h1 align="center">DESAFIO AMIGO SECRETO </h1>
 
-* [Desafio bastante amigavel](#descrição-do-projeto)
+* [Descrição do projeto](Desafio bastante amigavel)
