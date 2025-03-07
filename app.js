@@ -12,6 +12,9 @@ function adicionarAmigo() {
         b.innerHTML = amigos
 
         document.getElementById("amigo").value = "";
+
+        atualizarAmigo()
+
     }
 }
 
